@@ -1,4 +1,16 @@
 aid: heartwork
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heartwork.png
 name: Heartwork
 description: 'Heartwork is a company surfaced as a portfolio company of cowboy-ventures and added to the
   API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Unknown
@@ -22,3 +34,15 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'No first-party API surface found. Reachable "Heartwork" entities do not
+    match a Cowboy Ventures-backed API company: heartwork.com is a Shopify-hosted
+    workspace-furniture manufacturer (only /.well-known/openid-configuration is
+    Shopify''s platform default, not a Heartwork API); heartwork.app is a
+    meditation-art app; github.com/heartwork (HEART.WORK, 0 repos) is unrelated;
+    Cowboy Ventures'' current portfolio does not list Heartwork. Identity
+    unconfirmed; nothing to enrich without fabrication.'
